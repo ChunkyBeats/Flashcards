@@ -36,6 +36,17 @@ $ ruby app.rb
 
 In your browser go to: localhost:4567
 
+HEROKU
+======
+Finally deployed to Heroku at URL:
+http://immense-temple-5333.herokuapp.com/
+
+To populate app with seeded data, need to run the followed commands in the command line:
+
+$ heroku rake db:migrate
+
+$ heroku rake db:seed
+
 ABOUT
 =====
 
